@@ -15,7 +15,7 @@ export class App extends Component {
   };
 
   searchHandler = e => {
-    this.setState({ filter: e.target });
+    this.setState({ filter: e.target.value });
   };
 
   onAddContact = data => {
